@@ -36,3 +36,20 @@ td{
   width: 60%;
   padding: 5px;
 }
+
+.footer {
+  width: 100%;
+  text-align: center;
+
+}
+a{
+  color: black;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover{
+  color: rgb(255, 0, 0);
+}
