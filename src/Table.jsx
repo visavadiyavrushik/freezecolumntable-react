@@ -215,12 +215,12 @@ const Table = () => {
   }
 
   return (
-    <div>
-      <div>
+    <div className="main-div">
+      <div className="searchbar">
         <label>Search: </label>
         <input type="text" onChange={(e) => setGlobalFilter(e.target.value)} />
       </div>
-      <div>
+      <div className="select">
         <label>Hide Columns: </label>
         <Select
           isMulti
@@ -266,7 +266,7 @@ const Table = () => {
                           ? `${getFrozenColumnLeft(columnIndex)}px`
                           : "auto",
 
-                        zIndex: 1,
+                        // zIndex: 1,
                         background: "white",
                       }}
                     >
